@@ -6,11 +6,14 @@
 
   --fonte-texto :'JetBrains Mono', monospace;
   --fonte-paragrafo: 'Open Sans', sans-serif;
+
+  font-size: 62.5%;
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,7 +23,7 @@ body {
 }
 
 .page {
-  width: 1092px;
+  width: 109.2rem;
   margin: 0 auto;
 }
 
@@ -29,20 +32,20 @@ body {
 .navegacao {
   display: flex;
   justify-content: space-between;
-  margin: 71px 0 101px;
+  margin: 7.1rem 0 10.1rem;
 }
 
 .links {
   display: flex;
-  gap: 64px;
+  gap: 6.4rem;
   list-style: none;
 }
 
 .navegacao__link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
   color: #FFFFFF;
 }
 
@@ -53,16 +56,16 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin-bottom: 157px;
+  margin-bottom: 15.7rem;
 }
 
 .titulo__principal {
-  width: 614px;
+  width: 61.4rem;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 3.6rem;
+  line-height: 4.0rem;
   color: var(--cor-texto);
-  margin-bottom: 59px;
+  margin-bottom: 5.9rem;
 }
 
 .titulo__principal span {
@@ -70,13 +73,13 @@ body {
 }
 
 .texto__principal {
-  width: 604px;
+  width: 60.4rem;
   font-family: var(--fonte-paragrafo);
   color: var(--cor-paragrafo);
   font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  margin-bottom: 16px;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  margin-bottom: 1.6rem;
 }
 
 .texto__principal strong {
@@ -91,19 +94,19 @@ body {
 
 /* RODAPÉ */
 #linha {
-  width: 568px;
+  width: 56.8rem;
   height: 0;
   border: 1px solid var(--cor-destaque);
-  margin: 0 auto 27px;
+  margin: 0 auto 2.7rem;
 }
 
 .rodape {
   text-align: center;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
   color: var(--cor-texto);
-  margin-bottom: 23px;
+  margin-bottom: 2.3rem;
 }
 
 .rodape__link {
@@ -113,6 +116,6 @@ body {
 
 #cadeado {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 2.0rem;
+  left: 2.0rem;
 }
