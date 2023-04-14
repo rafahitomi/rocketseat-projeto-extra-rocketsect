@@ -119,3 +119,59 @@ body {
   bottom: 2.0rem;
   left: 2.0rem;
 }
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 1100px) {
+  .page {
+    width: 80.0rem;
+  }
+
+  .imagem__principal {
+    width: 40%;
+  }
+  
+  .titulo__principal, .texto__principal {
+    width: 40.0rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .page {
+    width: 60.0rem;
+  }
+
+  .titulo__principal, .texto__principal {
+    width: 35.0rem;
+  }
+
+  #linha {
+    width: 50.0rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .page, .titulo__principal, .texto__principal, #linha {
+    width: 30.0rem;
+  }
+
+  .navegacao {
+    flex-direction: column;
+    gap: 2.0rem;
+    margin: 7.1rem 0;
+  }
+
+  .container__principal {
+    flex-direction: column;
+    margin-bottom: 10.0rem;
+  }
+
+  .imagem__principal {
+    width: 100%;
+    margin-bottom: 7.1rem;
+  }
+
+  #cadeado {
+    width: 10%;
+  }
+}
